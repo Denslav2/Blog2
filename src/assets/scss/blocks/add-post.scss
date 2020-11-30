@@ -1,0 +1,55 @@
+.add-post{
+    padding: 1.5rem 2rem;
+    margin-top: 3rem;
+    background-color: $secondary;
+    box-shadow: 0px 15px 25px 0px rgb(19, 17, 17);
+    border-radius: 5px;
+}
+.add-post__form{
+    display: flex;
+}
+.add-post__textarea{
+    display: block;
+    width: 80%;
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: $white;
+    border: none;
+    background: transparent;
+    resize: none;
+    height: auto;
+
+        &::placeholder{
+            color: #d2d2d2;
+        }
+}
+.add-post__form-action{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.add-post__file{
+    display: block;
+    width: 4.4rem;
+    height: 4.4rem;
+    background: #ebebeb url(../images/add-file.jpg) center no-repeat;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color .2s linear;
+    input{
+        display: none;
+    }
+    &:hover{
+        background-color: darken(#ebebeb, 15%);
+    }
+}
+.add-post__send{
+    display: block;
+    width: 4.4rem;
+    height: 4.4rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: $secondary;
+    border: none;
+    margin-left: 0.5rem;
+}
