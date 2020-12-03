@@ -10,20 +10,23 @@
 
 .pagination__link {
     display: block;
-    width: 40px;
-    height: 40px;
-    background-color: #0d0d0d;
+    width: 4rem;
+    height: 4rem;
+
+    background-color: #0D0D0D;
     border-radius: 3px;
     box-shadow: 0 0 10px rgba($black, .15);
+
     font-size: 1.4rem;
     line-height: 4rem;
     color: $white;
     text-align: center;
     text-decoration: none;
+
     transition: background-color .2s linear;
 
     &:hover {
-        background-color: lighten(#0d0d0d, 2%);
+        background-color: lighten(#0D0D0D, 2%);
     }
 
     &.active {
