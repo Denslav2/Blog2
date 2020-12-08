@@ -640,7 +640,7 @@ a {
   transition: background-color .2s linear; }
 
 .add-post__file {
-  background: #EBEBEB url("../images/add-photo.svg") center no-repeat; }
+  background: #EBEBEB url("../images/add-file.jpg") center no-repeat; }
   .add-post__file input {
     display: none; }
   .add-post__file:hover {
@@ -648,7 +648,8 @@ a {
 
 .add-post__send {
   margin-left: 1.5rem;
-  background-color: #3137C9; }
+  background-color: #3137C9;
+  padding-left: inherit; }
   .add-post__send:hover {
     background-color: #2c31b4; }
 

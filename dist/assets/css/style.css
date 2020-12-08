@@ -492,7 +492,7 @@ a:hover {
 .search {
     width: 100%;
     max-width: 21rem;
-    background-color: #202020;
+    background-color: #062c19;
 }
 
 .search__input {
@@ -529,7 +529,7 @@ a:hover {
 .sidebar {
     width: 300px;
     height: 100vh;
-    background-color: #202020;
+    background-color: #062c19;
     box-shadow: 5px 0 15px rgba(5, 5, 5, 0.1);
     position: fixed;
     top: 0;
@@ -539,7 +539,7 @@ a:hover {
 
 .sidebar__header {
     height: 180px;
-    background-color: #121212;
+    background-color: #011d12;
 }
 
 .sidebar__header img {
@@ -622,7 +622,7 @@ a:hover {
     display: inline-block;
     vertical-align: top;
     padding: 1.12em 2.1em;
-    background: #121212;
+    background: #011d12;
     border: none;
     cursor: pointer;
     border-radius: 3em;
@@ -736,7 +736,7 @@ a:hover {
 .add-post {
     padding: 1.5rem 2rem;
     margin-bottom: 3rem;
-    background-color: #121212;
+    background-color: #011d12;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.45);
     border-radius: 5px;
 }
@@ -824,7 +824,7 @@ a:hover {
     margin-bottom: 3rem;
     padding: 2.5rem;
     overflow: hidden;
-    background-color: #202020;
+    background-color: #062c19;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.35);
     border-radius: 5px;
 }

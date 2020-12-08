@@ -50,7 +50,7 @@
 }
 
 .add-post__file {
-    background: #EBEBEB url("../images/add-photo.svg") center no-repeat;
+    background: #EBEBEB url("../images/add-file.jpg") center no-repeat;
 
     input {
         display: none;
@@ -64,6 +64,7 @@
 .add-post__send {
     margin-left: 1.5rem;
     background-color: $blue;
+    padding-left: inherit;
 
     &:hover {
         background-color: darken($blue, 5%);
