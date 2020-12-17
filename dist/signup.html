@@ -117,58 +117,40 @@
             <div class="container">
                 
                 
-                <h1 class="page__title">Мои работы</h1>
+                <h1 class="page__title page__title--center">Регистрация</h1>
                 
                 
-                <article class="work">
-                    <div class="work__preview">
-                        <img src="assets/images/post/work_1.jpg" alt="">
+                <form action="/" class="form form--auth">
+                    <div class="form__group form__group--md">
+                        <input type="text" class="form__control" placeholder="Ваше имя">
+                        <span class="form__line"></span>
                     </div>
-                    <div class="work__content">
-                        <h2 class="work__title">
-                            <a href="#" target="_blank" rel="noopener noreferrer">Бургеры</a>
-                        </h2>
-                        <div class="work__discription">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint libero, impedit vitae vero, aperiam itaque
-                                modi fugit beatae aliquam eum culpa consequatur, quo tempora delectus distinctio. Eligendi corporis
-                                aliquam quibusdam cum? Ipsum.</p>
+                    <div class="form__group form__group--md">
+                        <input type="email" class="form__control" placeholder="e-mail">
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__group form__group--md">
+                        <input type="password" class="form__control" placeholder="Пароль">
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__group form__group--md">
+                        <input type="password" class="form__control" placeholder="Потвердите пароль">
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__group form__group--md">
+                        <div class="form__footer form__footer--center">
+                            <button class="btn btn--blue btn--rounded btn--sm" type="submit">Регистрация</button>
                         </div>
-                        <ul class="tags">
-                            <li class="tags__item">дизайн</li>
-                            <li class="tags__item">создание сайта</li>
-                            <li class="tags__item">SEO</li>
+                        <ul class="form__footer-list">
+                            <li>
+                                <a href="signin.html">Войти</a>
+                            </li>
+                            <li>
+                                <a href="reset.html">Востановить пароль</a>
+                            </li>
                         </ul>
-                        <div class="work__footer">
-                            <a class="btn btn--blue btn--rounded btn--sm" href="#" target="_blank" rel="noopener noreferrer">Перейти на
-                                сайт</a>
-                        </div>
                     </div>
-                </article>
-                
-                <article class="work">
-                    <div class="work__preview">
-                        <img src="assets/images/post/work_2.jpg" alt="">
-                    </div>
-                    <div class="work__content">
-                        <h2 class="work__title">
-                            <a href="#" target="_blank" rel="noopener noreferrer">Кросовки</a>
-                        </h2>
-                        <div class="work__discription">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint libero, impedit vitae vero, aperiam itaque
-                                modi fugit beatae aliquam eum culpa consequatur, quo tempora delectus distinctio. Eligendi corporis
-                                aliquam quibusdam cum? Ipsum.</p>
-                        </div>
-                        <ul class="tags">
-                            <li class="tags__item">дизайн</li>
-                            <li class="tags__item">создание сайта</li>
-                            <li class="tags__item">SEO</li>
-                        </ul>
-                        <div class="work__footer">
-                            <a class="btn btn--blue btn--rounded btn--sm" href="#" target="_blank" rel="noopener noreferrer">Перейти на
-                                сайт</a>
-                        </div>
-                    </div>
-                </article>
+                </form>
             </div>
         </main>
     </div>
